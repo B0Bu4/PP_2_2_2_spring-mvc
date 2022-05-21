@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 <html lang="en">
-<title>Person List</title>
+<title>Cars List</title>
 <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
 </head>
 <body>
 <h1>Cars List</h1>
 <br/><br/>
 <div>
+    <!--suppress HtmlDeprecatedAttribute -->
     <table border="1">
         <tr>
             <th>Model</th>
@@ -22,15 +24,5 @@
         </tr>
     </table>
 </div>
-    <a href="/cars">cars</a>
-    <a href="/cars?count=0">0</a>
-    <a href="/cars?count=1">1</a>
-    <a href="/cars?count=2">2</a>
-    <a href="/cars?count=3">3</a>
-    <a href="/cars?count=4">4</a>
-    <a href="/cars?count=5">5</a>
-    <a href="/cars?count=6">6</a>
-    <a href="/cars?count=99">99+</a>
-
 </body>
 </html>
